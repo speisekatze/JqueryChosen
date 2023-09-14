@@ -4,16 +4,16 @@ class JqueryChosenPlugin extends MantisPlugin {
 
 	function register() {
 		$this->name = 'Jquery Chosen';
-		$this->description = 'Applies the Chosen jQuery plugin on all html selects';
+		$this->description = 'Applies the Chosen jQuery plugin on all html selects that don't have css .not-chosen-plugin';
 
-		$this->version = '0.3';
+		$this->version = '0.4';
 		$this->requires = array(
 			'MantisCore' => '2.0.0'
 		);
 
-		$this->author	= 'Kiver Vinicius';
-		$this->contact	= 'kivervinicius@gmail.com';
-		$this->url		= 'https://github.com/kivervinicius';
+		$this->author	= 'Speisekatze';
+		$this->contact	= 'speisekatze@gmail.com';
+		$this->url	= 'https://github.com/speisekatze/JqueryChosen';
 	}
 
 	function hooks() {
