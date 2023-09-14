@@ -11,7 +11,7 @@ specific language governing permissions and limitations under the License.
 */
 
 jQuery(function($){
-	$("select").each(function() {
+	$("select:not(.not-chosen-plugin").each(function() {
 
 		var element_width = this.offsetWidth;
 
