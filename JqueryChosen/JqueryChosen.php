@@ -4,7 +4,7 @@ class JqueryChosenPlugin extends MantisPlugin {
 
 	function register() {
 		$this->name = 'Jquery Chosen';
-		$this->description = 'Applies the Chosen jQuery plugin on all html selects that don't have css .not-chosen-plugin';
+		$this->description = 'Applies the Chosen jQuery plugin on all html selects that don\'t have css .not-chosen-plugin';
 
 		$this->version = '0.4';
 		$this->requires = array(
